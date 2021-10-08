@@ -78,11 +78,9 @@ footer {
     position: relative;
     bottom: 0;
 }
-@media (max-width){
+@media (max-width:480px){
     #message {
-        display: inline-block;  
-        width: 20%;
-        font-weight: 500;
-        font-size: 18px;
+        
+        font-size: 16px;
     }
-} /* end of mrdia query */
+} /* end of media query */
